@@ -42,7 +42,7 @@ def main():
 
         # --- Create Main Page Layout ---
         # This uses the main page function from our ui.py module
-        ui.create_main_page(filtered_df)
+        ui.create_main_page(filtered_df, content_type)
 
 
 if __name__ == "__main__":
